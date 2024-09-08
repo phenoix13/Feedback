@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(137, 43, 226, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.par{
+    background-color: rgb(15, 8, 56);
+    color: white;
+    width: 70%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+.chi{
+    width: 90%;
+    padding: 0.9rem;
+}
+.hea{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+.bu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+button{
+    padding: 0.5rem;
+    color: black;
+    font-weight: bold;
+}
+.sub{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.sub button{
+    font-size: 1rem;
+}
+.par button:hover{
+    background-color: black;
+    color: white;
+    outline: none;
+}
+.ans #chan{
+    border: 1px solid black;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.8rem;
+}
+@media screen and (max-width:780px) {
+    .par{
+        width: 85%;
+    }   
+    .chi{
+        width: 90%;
+        padding: 0.7rem;
+    }
+    .hea{
+        font-size: 1.3rem;
+        padding: 0.8rem;
+    }
+    .bu{
+        padding: 0.6rem;
+    }
+    button{
+        padding: 0.6rem;
+        font-weight:600;
+    }
+    .sub{
+        width: 100%;
+        padding: 0.8rem;
+    }
+    .sub button{
+        font-size: 1.3rem;
+    }
+    .ans #chan{
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding: 0.8rem;
+    }    
+}
+@media screen and (max-width:500px) {
+    .par{
+        width: 90%;
+    }   
+    .chi{
+        width: 90%;
+        padding: 0.5rem;
+    }
+    .hea{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .bu{
+        padding: 0.3rem;
+    }
+    button{
+        padding: 0.3rem;
+        font-weight:400;
+    }
+    .sub{
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .sub button{
+        font-size: 1rem;
+    }
+    .ans #chan{
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.6rem;
+    }    
+}
